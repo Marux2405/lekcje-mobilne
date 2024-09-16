@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/liczba"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:text="Count: 0"/>
+
+    <Button
+        android:id="@+id/buttonDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="kliknij mnie"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/halo"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
